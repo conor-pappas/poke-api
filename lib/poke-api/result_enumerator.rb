@@ -12,7 +12,7 @@ module PokeAPI
       offset = 0
       loop do
         response = APIWrapper.index(@resource, offset, @batch_size)
-        response.each { |x| yield x }
+        response['results'].each { |x| yield x }
         offset += @batch_size
         break unless response['next']
       end

@@ -1,0 +1,42 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.5.2)
+      public_suffix (>= 2.0.2, < 4.0)
+    byebug (10.0.2)
+    crack (0.4.3)
+      safe_yaml (~> 1.0.0)
+    hashdiff (0.3.7)
+    httpclient (2.8.3)
+    json (2.1.0)
+    minispec-metadata (2.0.0)
+      minitest
+    minitest (5.11.3)
+    minitest-vcr (1.4.0)
+      minispec-metadata (~> 2.0)
+      minitest (>= 4.7.5)
+      vcr (>= 2.9)
+    public_suffix (3.0.3)
+    rake (12.3.1)
+    safe_yaml (1.0.4)
+    vcr (4.0.0)
+    webmock (3.4.2)
+      addressable (>= 2.3.6)
+      crack (>= 0.3.2)
+      hashdiff
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  byebug
+  httpclient
+  json
+  minitest
+  minitest-vcr
+  rake
+  vcr
+  webmock
+
+BUNDLED WITH
+   1.16.2

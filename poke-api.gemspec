@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'poke/api/version'
+require 'poke-api/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "poke-api"
-  spec.version       = Poke::API::VERSION
+  spec.version       = PokeAPI::VERSION
   spec.authors       = ["Andrew Horner"]
   spec.email         = ["andrew@tablexi.com"]
   spec.summary       = %q{A wrapper for the PokéAPI}

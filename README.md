@@ -1,4 +1,4 @@
-# Poke::API
+# PokeAPI
 
 A Ruby wrapper for the PokéAPI (http://pokeapi.co/).
 
@@ -22,10 +22,10 @@ Or install it yourself as:
 
 ### Loading Resources
 
-You can access specific resources in the API directly through the `Poke::API::Loader` class:
+You can access specific resources in the API directly through the `PokeAPI::Loader` class:
 
 ```ruby
-loader = Poke::API::Loader.new("pokemon")
+loader = PokeAPI::Loader.new("pokemon")
 loader.all
 # => [{ "name" => "Bulbasaur", "national_id" => 1, ... }, ...]
 loader.find(169)

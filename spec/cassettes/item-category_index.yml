@@ -1,0 +1,135 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://pokeapi.co/api/v2/item-category?limit=50&offset=0
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.4.4 (2018-03-28))
+      Accept:
+      - "*/*"
+      Date:
+      - Mon, 10 Sep 2018 01:37:24 GMT
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Date:
+      - Mon, 10 Sep 2018 01:37:24 GMT
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - max-age=3600
+      Expires:
+      - Mon, 10 Sep 2018 02:37:24 GMT
+      Location:
+      - https://pokeapi.co/api/v2/item-category?limit=50&offset=0
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 457e2b5041ab5a8c-BOS
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Mon, 10 Sep 2018 01:37:24 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/item-category?limit=50&offset=0
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.4.4 (2018-03-28))
+      Accept:
+      - "*/*"
+      Date:
+      - Mon, 10 Sep 2018 01:37:24 GMT
+      Cookie:
+      - __cfduid=d0a24b5b700504dcd3c45abf1e2c9ea1b1536543413
+  response:
+    status:
+      code: 301
+      message: MOVED PERMANENTLY
+    headers:
+      Date:
+      - Mon, 10 Sep 2018 01:37:24 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Frame-Options:
+      - SAMEORIGIN
+      Location:
+      - https://pokeapi.co/api/v2/item-category/?limit=50&offset=0
+      X-Xss-Protection:
+      - 1; mode=block
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 457e2b506fa5ae38-BOS
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Mon, 10 Sep 2018 01:37:24 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/item-category/?limit=50&offset=0
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.4.4 (2018-03-28))
+      Accept:
+      - "*/*"
+      Date:
+      - Mon, 10 Sep 2018 01:37:24 GMT
+      Cookie:
+      - __cfduid=d0a24b5b700504dcd3c45abf1e2c9ea1b1536543413
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 10 Sep 2018 01:37:24 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      - Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+      Allow:
+      - GET, HEAD, OPTIONS
+      X-Xss-Protection:
+      - 1; mode=block
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 457e2b511842ae38-BOS
+    body:
+      encoding: UTF-8
+      string: '{"count":45,"previous":null,"results":[{"url":"https:\/\/pokeapi.co\/api\/v2\/item-category\/1\/","name":"stat-boosts"},{"url":"https:\/\/pokeapi.co\/api\/v2\/item-category\/2\/","name":"effort-drop"},{"url":"https:\/\/pokeapi.co\/api\/v2\/item-category\/3\/","name":"medicine"},{"url":"https:\/\/pokeapi.co\/api\/v2\/item-category\/4\/","name":"other"},{"url":"https:\/\/pokeapi.co\/api\/v2\/item-category\/5\/","name":"in-a-pinch"},{"url":"https:\/\/pokeapi.co\/api\/v2\/item-category\/6\/","name":"picky-healing"},{"url":"https:\/\/pokeapi.co\/api\/v2\/item-category\/7\/","name":"type-protection"},{"url":"https:\/\/pokeapi.co\/api\/v2\/item-category\/8\/","name":"baking-only"},{"url":"https:\/\/pokeapi.co\/api\/v2\/item-category\/9\/","name":"collectibles"},{"url":"https:\/\/pokeapi.co\/api\/v2\/item-category\/10\/","name":"evolution"},{"url":"https:\/\/pokeapi.co\/api\/v2\/item-category\/11\/","name":"spelunking"},{"url":"https:\/\/pokeapi.co\/api\/v2\/item-category\/12\/","name":"held-items"},{"url":"https:\/\/pokeapi.co\/api\/v2\/item-category\/13\/","name":"choice"},{"url":"https:\/\/pokeapi.co\/api\/v2\/item-category\/14\/","name":"effort-training"},{"url":"https:\/\/pokeapi.co\/api\/v2\/item-category\/15\/","name":"bad-held-items"},{"url":"https:\/\/pokeapi.co\/api\/v2\/item-category\/16\/","name":"training"},{"url":"https:\/\/pokeapi.co\/api\/v2\/item-category\/17\/","name":"plates"},{"url":"https:\/\/pokeapi.co\/api\/v2\/item-category\/18\/","name":"species-specific"},{"url":"https:\/\/pokeapi.co\/api\/v2\/item-category\/19\/","name":"type-enhancement"},{"url":"https:\/\/pokeapi.co\/api\/v2\/item-category\/20\/","name":"event-items"},{"url":"https:\/\/pokeapi.co\/api\/v2\/item-category\/21\/","name":"gameplay"},{"url":"https:\/\/pokeapi.co\/api\/v2\/item-category\/22\/","name":"plot-advancement"},{"url":"https:\/\/pokeapi.co\/api\/v2\/item-category\/23\/","name":"unused"},{"url":"https:\/\/pokeapi.co\/api\/v2\/item-category\/24\/","name":"loot"},{"url":"https:\/\/pokeapi.co\/api\/v2\/item-category\/25\/","name":"all-mail"},{"url":"https:\/\/pokeapi.co\/api\/v2\/item-category\/26\/","name":"vitamins"},{"url":"https:\/\/pokeapi.co\/api\/v2\/item-category\/27\/","name":"healing"},{"url":"https:\/\/pokeapi.co\/api\/v2\/item-category\/28\/","name":"pp-recovery"},{"url":"https:\/\/pokeapi.co\/api\/v2\/item-category\/29\/","name":"revival"},{"url":"https:\/\/pokeapi.co\/api\/v2\/item-category\/30\/","name":"status-cures"},{"url":"https:\/\/pokeapi.co\/api\/v2\/item-category\/32\/","name":"mulch"},{"url":"https:\/\/pokeapi.co\/api\/v2\/item-category\/33\/","name":"special-balls"},{"url":"https:\/\/pokeapi.co\/api\/v2\/item-category\/34\/","name":"standard-balls"},{"url":"https:\/\/pokeapi.co\/api\/v2\/item-category\/35\/","name":"dex-completion"},{"url":"https:\/\/pokeapi.co\/api\/v2\/item-category\/36\/","name":"scarves"},{"url":"https:\/\/pokeapi.co\/api\/v2\/item-category\/37\/","name":"all-machines"},{"url":"https:\/\/pokeapi.co\/api\/v2\/item-category\/38\/","name":"flutes"},{"url":"https:\/\/pokeapi.co\/api\/v2\/item-category\/39\/","name":"apricorn-balls"},{"url":"https:\/\/pokeapi.co\/api\/v2\/item-category\/40\/","name":"apricorn-box"},{"url":"https:\/\/pokeapi.co\/api\/v2\/item-category\/41\/","name":"data-cards"},{"url":"https:\/\/pokeapi.co\/api\/v2\/item-category\/42\/","name":"jewels"},{"url":"https:\/\/pokeapi.co\/api\/v2\/item-category\/43\/","name":"miracle-shooter"},{"url":"https:\/\/pokeapi.co\/api\/v2\/item-category\/44\/","name":"mega-stones"},{"url":"https:\/\/pokeapi.co\/api\/v2\/item-category\/45\/","name":"memories"},{"url":"https:\/\/pokeapi.co\/api\/v2\/item-category\/46\/","name":"z-crystals"}],"next":null}'
+    http_version: 
+  recorded_at: Mon, 10 Sep 2018 01:37:24 GMT
+recorded_with: VCR 4.0.0

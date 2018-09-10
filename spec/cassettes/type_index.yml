@@ -1,0 +1,135 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://pokeapi.co/api/v2/type?limit=50&offset=0
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.4.4 (2018-03-28))
+      Accept:
+      - "*/*"
+      Date:
+      - Mon, 10 Sep 2018 01:35:42 GMT
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Date:
+      - Mon, 10 Sep 2018 01:35:42 GMT
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - max-age=3600
+      Expires:
+      - Mon, 10 Sep 2018 02:35:42 GMT
+      Location:
+      - https://pokeapi.co/api/v2/type?limit=50&offset=0
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 457e28d032d65a4a-BOS
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Mon, 10 Sep 2018 01:35:42 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/type?limit=50&offset=0
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.4.4 (2018-03-28))
+      Accept:
+      - "*/*"
+      Date:
+      - Mon, 10 Sep 2018 01:35:42 GMT
+      Cookie:
+      - __cfduid=d61f5eb155365ab7b4506f58fff76348b1536543323
+  response:
+    status:
+      code: 301
+      message: MOVED PERMANENTLY
+    headers:
+      Date:
+      - Mon, 10 Sep 2018 01:35:42 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Frame-Options:
+      - SAMEORIGIN
+      Location:
+      - https://pokeapi.co/api/v2/type/?limit=50&offset=0
+      X-Xss-Protection:
+      - 1; mode=block
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 457e28d05d10ae44-BOS
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Mon, 10 Sep 2018 01:35:42 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/type/?limit=50&offset=0
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.4.4 (2018-03-28))
+      Accept:
+      - "*/*"
+      Date:
+      - Mon, 10 Sep 2018 01:35:42 GMT
+      Cookie:
+      - __cfduid=d61f5eb155365ab7b4506f58fff76348b1536543323
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 10 Sep 2018 01:35:42 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      - Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+      Allow:
+      - GET, HEAD, OPTIONS
+      X-Xss-Protection:
+      - 1; mode=block
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 457e28d10ec7ae44-BOS
+    body:
+      encoding: UTF-8
+      string: '{"count":20,"previous":null,"results":[{"url":"https:\/\/pokeapi.co\/api\/v2\/type\/1\/","name":"normal"},{"url":"https:\/\/pokeapi.co\/api\/v2\/type\/2\/","name":"fighting"},{"url":"https:\/\/pokeapi.co\/api\/v2\/type\/3\/","name":"flying"},{"url":"https:\/\/pokeapi.co\/api\/v2\/type\/4\/","name":"poison"},{"url":"https:\/\/pokeapi.co\/api\/v2\/type\/5\/","name":"ground"},{"url":"https:\/\/pokeapi.co\/api\/v2\/type\/6\/","name":"rock"},{"url":"https:\/\/pokeapi.co\/api\/v2\/type\/7\/","name":"bug"},{"url":"https:\/\/pokeapi.co\/api\/v2\/type\/8\/","name":"ghost"},{"url":"https:\/\/pokeapi.co\/api\/v2\/type\/9\/","name":"steel"},{"url":"https:\/\/pokeapi.co\/api\/v2\/type\/10\/","name":"fire"},{"url":"https:\/\/pokeapi.co\/api\/v2\/type\/11\/","name":"water"},{"url":"https:\/\/pokeapi.co\/api\/v2\/type\/12\/","name":"grass"},{"url":"https:\/\/pokeapi.co\/api\/v2\/type\/13\/","name":"electric"},{"url":"https:\/\/pokeapi.co\/api\/v2\/type\/14\/","name":"psychic"},{"url":"https:\/\/pokeapi.co\/api\/v2\/type\/15\/","name":"ice"},{"url":"https:\/\/pokeapi.co\/api\/v2\/type\/16\/","name":"dragon"},{"url":"https:\/\/pokeapi.co\/api\/v2\/type\/17\/","name":"dark"},{"url":"https:\/\/pokeapi.co\/api\/v2\/type\/18\/","name":"fairy"},{"url":"https:\/\/pokeapi.co\/api\/v2\/type\/10001\/","name":"unknown"},{"url":"https:\/\/pokeapi.co\/api\/v2\/type\/10002\/","name":"shadow"}],"next":null}'
+    http_version: 
+  recorded_at: Mon, 10 Sep 2018 01:35:42 GMT
+recorded_with: VCR 4.0.0

@@ -1,7 +1,7 @@
 require "spec_helper"
 
-describe PokeAPI::Loader do
-  let(:loader) { PokeAPI::Loader.new(path) }
+describe PokeAPI::Client do
+  let(:client) { PokeAPI::Client.new(path) }
 
   PokeAPI::RESOURCES.each do |resource|
     describe "indexing #{resource}" do
@@ -16,7 +16,7 @@ describe PokeAPI::Loader do
       end
 
       it "returns a data collection" do
-        loader.all.wont_be_empty
+        client.all.wont_be_empty
       end
     end
   end
@@ -34,7 +34,7 @@ describe PokeAPI::Loader do
     end
 
     it "returns data for the requested pokémon" do
-      monster = loader.find(number)
+      monster = client.find(number)
       monster["name"].must_equal "bulbasaur"
     end
   end

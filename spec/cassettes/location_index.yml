@@ -1,0 +1,1852 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://pokeapi.co/api/v2/location?limit=50&offset=0
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.4.4 (2018-03-28))
+      Accept:
+      - "*/*"
+      Date:
+      - Mon, 10 Sep 2018 01:36:53 GMT
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Date:
+      - Mon, 10 Sep 2018 01:36:53 GMT
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - max-age=3600
+      Expires:
+      - Mon, 10 Sep 2018 02:36:53 GMT
+      Location:
+      - https://pokeapi.co/api/v2/location?limit=50&offset=0
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 457e2a8d52065a3e-BOS
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Mon, 10 Sep 2018 01:36:53 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/location?limit=50&offset=0
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.4.4 (2018-03-28))
+      Accept:
+      - "*/*"
+      Date:
+      - Mon, 10 Sep 2018 01:36:53 GMT
+  response:
+    status:
+      code: 301
+      message: MOVED PERMANENTLY
+    headers:
+      Date:
+      - Mon, 10 Sep 2018 01:36:53 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d0a24b5b700504dcd3c45abf1e2c9ea1b1536543413; expires=Tue, 10-Sep-19
+        01:36:53 GMT; path=/; domain=.pokeapi.co; HttpOnly; Secure
+      X-Frame-Options:
+      - SAMEORIGIN
+      Location:
+      - https://pokeapi.co/api/v2/location/?limit=50&offset=0
+      X-Xss-Protection:
+      - 1; mode=block
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 457e2a8dec55ae38-BOS
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Mon, 10 Sep 2018 01:36:53 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/location/?limit=50&offset=0
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.4.4 (2018-03-28))
+      Accept:
+      - "*/*"
+      Date:
+      - Mon, 10 Sep 2018 01:36:53 GMT
+      Cookie:
+      - __cfduid=d0a24b5b700504dcd3c45abf1e2c9ea1b1536543413
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 10 Sep 2018 01:36:53 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      - Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+      Allow:
+      - GET, HEAD, OPTIONS
+      X-Xss-Protection:
+      - 1; mode=block
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 457e2a8f1d4dae38-BOS
+    body:
+      encoding: UTF-8
+      string: '{"count":673,"previous":null,"results":[{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/1\/","name":"canalave-city"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/2\/","name":"eterna-city"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/3\/","name":"pastoria-city"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/4\/","name":"sunyshore-city"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/5\/","name":"sinnoh-pokemon-league"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/6\/","name":"oreburgh-mine"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/7\/","name":"valley-windworks"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/8\/","name":"eterna-forest"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/9\/","name":"fuego-ironworks"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/10\/","name":"mt-coronet"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/11\/","name":"great-marsh"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/12\/","name":"solaceon-ruins"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/13\/","name":"sinnoh-victory-road"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/14\/","name":"ravaged-path"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/15\/","name":"oreburgh-gate"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/16\/","name":"stark-mountain"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/17\/","name":"spring-path"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/18\/","name":"turnback-cave"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/19\/","name":"snowpoint-temple"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/20\/","name":"wayward-cave"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/22\/","name":"ruin-maniac-cave"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/23\/","name":"trophy-garden"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/24\/","name":"iron-island"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/25\/","name":"old-chateau"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/26\/","name":"lake-verity"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/27\/","name":"lake-valor"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/28\/","name":"lake-acuity"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/29\/","name":"valor-lakefront"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/30\/","name":"acuity-lakefront"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/31\/","name":"sinnoh-route-201"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/32\/","name":"sinnoh-route-202"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/33\/","name":"sinnoh-route-203"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/34\/","name":"sinnoh-route-204"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/35\/","name":"sinnoh-route-205"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/36\/","name":"sinnoh-route-206"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/37\/","name":"sinnoh-route-207"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/38\/","name":"sinnoh-route-208"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/39\/","name":"sinnoh-route-209"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/40\/","name":"lost-tower"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/41\/","name":"sinnoh-route-210"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/42\/","name":"sinnoh-route-211"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/43\/","name":"sinnoh-route-212"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/44\/","name":"sinnoh-route-213"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/45\/","name":"sinnoh-route-214"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/46\/","name":"sinnoh-route-215"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/47\/","name":"sinnoh-route-216"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/48\/","name":"sinnoh-route-217"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/49\/","name":"sinnoh-route-218"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/50\/","name":"sinnoh-route-219"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/51\/","name":"sinnoh-route-221"}],"next":"https:\/\/pokeapi.co\/api\/v2\/location\/?limit=50&offset=50"}'
+    http_version: 
+  recorded_at: Mon, 10 Sep 2018 01:36:53 GMT
+- request:
+    method: get
+    uri: http://pokeapi.co/api/v2/location?limit=50&offset=50
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.4.4 (2018-03-28))
+      Accept:
+      - "*/*"
+      Date:
+      - Mon, 10 Sep 2018 01:36:53 GMT
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Date:
+      - Mon, 10 Sep 2018 01:36:53 GMT
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - max-age=3600
+      Expires:
+      - Mon, 10 Sep 2018 02:36:53 GMT
+      Location:
+      - https://pokeapi.co/api/v2/location?limit=50&offset=50
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 457e2a90813d5a8c-BOS
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Mon, 10 Sep 2018 01:36:53 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/location?limit=50&offset=50
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.4.4 (2018-03-28))
+      Accept:
+      - "*/*"
+      Date:
+      - Mon, 10 Sep 2018 01:36:53 GMT
+      Cookie:
+      - __cfduid=d0a24b5b700504dcd3c45abf1e2c9ea1b1536543413
+  response:
+    status:
+      code: 301
+      message: MOVED PERMANENTLY
+    headers:
+      Date:
+      - Mon, 10 Sep 2018 01:36:54 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Frame-Options:
+      - SAMEORIGIN
+      Location:
+      - https://pokeapi.co/api/v2/location/?limit=50&offset=50
+      X-Xss-Protection:
+      - 1; mode=block
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 457e2a90be90ae38-BOS
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Mon, 10 Sep 2018 01:36:54 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/location/?limit=50&offset=50
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.4.4 (2018-03-28))
+      Accept:
+      - "*/*"
+      Date:
+      - Mon, 10 Sep 2018 01:36:54 GMT
+      Cookie:
+      - __cfduid=d0a24b5b700504dcd3c45abf1e2c9ea1b1536543413
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 10 Sep 2018 01:36:54 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      - Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+      Allow:
+      - GET, HEAD, OPTIONS
+      X-Xss-Protection:
+      - 1; mode=block
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 457e2a91df6cae38-BOS
+    body:
+      encoding: UTF-8
+      string: '{"count":673,"previous":"https:\/\/pokeapi.co\/api\/v2\/location\/?limit=50","results":[{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/52\/","name":"sinnoh-route-222"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/53\/","name":"sinnoh-route-224"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/54\/","name":"sinnoh-route-225"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/55\/","name":"sinnoh-route-227"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/56\/","name":"sinnoh-route-228"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/57\/","name":"sinnoh-route-229"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/58\/","name":"twinleaf-town"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/59\/","name":"celestic-town"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/60\/","name":"resort-area"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/61\/","name":"sinnoh-sea-route-220"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/62\/","name":"sinnoh-sea-route-223"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/63\/","name":"sinnoh-sea-route-226"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/64\/","name":"sinnoh-sea-route-230"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/65\/","name":"blackthorn-city"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/66\/","name":"burned-tower"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/67\/","name":"celadon-city"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/68\/","name":"cerulean-city"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/69\/","name":"cherrygrove-city"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/70\/","name":"cianwood-city"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/71\/","name":"cinnabar-island"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/72\/","name":"dark-cave"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/73\/","name":"digletts-cave"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/74\/","name":"dragons-den"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/75\/","name":"ecruteak-city"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/76\/","name":"fuchsia-city"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/77\/","name":"ice-path"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/78\/","name":"ilex-forest"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/79\/","name":"lake-of-rage"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/80\/","name":"mt-moon"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/81\/","name":"mt-mortar"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/82\/","name":"mt-silver"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/83\/","name":"national-park"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/84\/","name":"new-bark-town"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/85\/","name":"olivine-city"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/86\/","name":"pallet-town"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/87\/","name":"rock-tunnel"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/88\/","name":"kanto-route-1"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/89\/","name":"kanto-route-10"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/90\/","name":"kanto-route-11"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/91\/","name":"kanto-route-12"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/92\/","name":"kanto-route-13"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/93\/","name":"kanto-route-14"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/94\/","name":"kanto-route-15"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/95\/","name":"kanto-route-16"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/96\/","name":"kanto-route-17"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/97\/","name":"kanto-route-18"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/98\/","name":"kanto-sea-route-19"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/99\/","name":"kanto-route-2"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/100\/","name":"kanto-sea-route-20"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/101\/","name":"kanto-sea-route-21"}],"next":"https:\/\/pokeapi.co\/api\/v2\/location\/?limit=50&offset=100"}'
+    http_version: 
+  recorded_at: Mon, 10 Sep 2018 01:36:54 GMT
+- request:
+    method: get
+    uri: http://pokeapi.co/api/v2/location?limit=50&offset=100
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.4.4 (2018-03-28))
+      Accept:
+      - "*/*"
+      Date:
+      - Mon, 10 Sep 2018 01:36:54 GMT
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Date:
+      - Mon, 10 Sep 2018 01:36:54 GMT
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - max-age=3600
+      Expires:
+      - Mon, 10 Sep 2018 02:36:54 GMT
+      Location:
+      - https://pokeapi.co/api/v2/location?limit=50&offset=100
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 457e2a9321ad5a8c-BOS
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Mon, 10 Sep 2018 01:36:54 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/location?limit=50&offset=100
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.4.4 (2018-03-28))
+      Accept:
+      - "*/*"
+      Date:
+      - Mon, 10 Sep 2018 01:36:54 GMT
+      Cookie:
+      - __cfduid=d0a24b5b700504dcd3c45abf1e2c9ea1b1536543413
+  response:
+    status:
+      code: 301
+      message: MOVED PERMANENTLY
+    headers:
+      Date:
+      - Mon, 10 Sep 2018 01:36:54 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Frame-Options:
+      - SAMEORIGIN
+      Location:
+      - https://pokeapi.co/api/v2/location/?limit=50&offset=100
+      X-Xss-Protection:
+      - 1; mode=block
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 457e2a933875ae38-BOS
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Mon, 10 Sep 2018 01:36:54 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/location/?limit=50&offset=100
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.4.4 (2018-03-28))
+      Accept:
+      - "*/*"
+      Date:
+      - Mon, 10 Sep 2018 01:36:54 GMT
+      Cookie:
+      - __cfduid=d0a24b5b700504dcd3c45abf1e2c9ea1b1536543413
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 10 Sep 2018 01:36:54 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      - Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+      Allow:
+      - GET, HEAD, OPTIONS
+      X-Xss-Protection:
+      - 1; mode=block
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 457e2a93e90bae38-BOS
+    body:
+      encoding: UTF-8
+      string: '{"count":673,"previous":"https:\/\/pokeapi.co\/api\/v2\/location\/?limit=50&offset=50","results":[{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/102\/","name":"kanto-route-22"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/103\/","name":"kanto-route-24"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/104\/","name":"kanto-route-25"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/105\/","name":"kanto-route-26"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/106\/","name":"kanto-route-27"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/107\/","name":"kanto-route-28"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/108\/","name":"johto-route-29"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/109\/","name":"kanto-route-3"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/110\/","name":"johto-route-30"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/111\/","name":"johto-route-31"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/112\/","name":"johto-route-32"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/113\/","name":"johto-route-33"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/114\/","name":"johto-route-34"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/115\/","name":"johto-route-35"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/116\/","name":"johto-route-36"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/117\/","name":"johto-route-37"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/118\/","name":"johto-route-38"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/119\/","name":"johto-route-39"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/120\/","name":"kanto-route-4"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/121\/","name":"johto-sea-route-40"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/122\/","name":"johto-sea-route-41"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/123\/","name":"johto-route-42"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/124\/","name":"johto-route-43"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/125\/","name":"johto-route-44"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/126\/","name":"johto-route-45"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/127\/","name":"johto-route-46"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/128\/","name":"johto-route-47"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/129\/","name":"johto-route-48"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/130\/","name":"kanto-route-5"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/131\/","name":"kanto-route-6"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/132\/","name":"kanto-route-7"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/133\/","name":"kanto-route-8"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/134\/","name":"kanto-route-9"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/135\/","name":"ruins-of-alph"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/136\/","name":"seafoam-islands"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/137\/","name":"slowpoke-well"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/138\/","name":"sprout-tower"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/139\/","name":"bell-tower"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/140\/","name":"tohjo-falls"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/141\/","name":"union-cave"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/147\/","name":"cerulean-cave"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/148\/","name":"unknown-all-poliwag"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/149\/","name":"unknown-all-rattata"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/150\/","name":"unknown-all-bugs"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/151\/","name":"vermilion-city"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/152\/","name":"kanto-victory-road-1"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/153\/","name":"violet-city"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/154\/","name":"viridian-city"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/155\/","name":"viridian-forest"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/156\/","name":"whirl-islands"}],"next":"https:\/\/pokeapi.co\/api\/v2\/location\/?limit=50&offset=150"}'
+    http_version: 
+  recorded_at: Mon, 10 Sep 2018 01:36:54 GMT
+- request:
+    method: get
+    uri: http://pokeapi.co/api/v2/location?limit=50&offset=150
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.4.4 (2018-03-28))
+      Accept:
+      - "*/*"
+      Date:
+      - Mon, 10 Sep 2018 01:36:54 GMT
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Date:
+      - Mon, 10 Sep 2018 01:36:54 GMT
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - max-age=3600
+      Expires:
+      - Mon, 10 Sep 2018 02:36:54 GMT
+      Location:
+      - https://pokeapi.co/api/v2/location?limit=50&offset=150
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 457e2a94b1eb5a8c-BOS
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Mon, 10 Sep 2018 01:36:54 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/location?limit=50&offset=150
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.4.4 (2018-03-28))
+      Accept:
+      - "*/*"
+      Date:
+      - Mon, 10 Sep 2018 01:36:54 GMT
+      Cookie:
+      - __cfduid=d0a24b5b700504dcd3c45abf1e2c9ea1b1536543413
+  response:
+    status:
+      code: 301
+      message: MOVED PERMANENTLY
+    headers:
+      Date:
+      - Mon, 10 Sep 2018 01:36:54 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Frame-Options:
+      - SAMEORIGIN
+      Location:
+      - https://pokeapi.co/api/v2/location/?limit=50&offset=150
+      X-Xss-Protection:
+      - 1; mode=block
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 457e2a94da3cae38-BOS
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Mon, 10 Sep 2018 01:36:54 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/location/?limit=50&offset=150
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.4.4 (2018-03-28))
+      Accept:
+      - "*/*"
+      Date:
+      - Mon, 10 Sep 2018 01:36:54 GMT
+      Cookie:
+      - __cfduid=d0a24b5b700504dcd3c45abf1e2c9ea1b1536543413
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 10 Sep 2018 01:36:54 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      - Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+      Allow:
+      - GET, HEAD, OPTIONS
+      X-Xss-Protection:
+      - 1; mode=block
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 457e2a95fb15ae38-BOS
+    body:
+      encoding: UTF-8
+      string: '{"count":673,"previous":"https:\/\/pokeapi.co\/api\/v2\/location\/?limit=50&offset=100","results":[{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/157\/","name":"kanto-route-23"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/158\/","name":"power-plant"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/159\/","name":"kanto-victory-road-2"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/160\/","name":"pokemon-tower"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/161\/","name":"pokemon-mansion"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/162\/","name":"kanto-safari-zone"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/163\/","name":"sandgem-town"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/164\/","name":"floaroma-town"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/165\/","name":"solaceon-town"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/167\/","name":"jubilife-city"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/168\/","name":"oreburgh-city"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/169\/","name":"hearthome-city"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/170\/","name":"veilstone-city"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/171\/","name":"snowpoint-city"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/172\/","name":"spear-pillar"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/173\/","name":"pal-park"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/174\/","name":"amity-square"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/175\/","name":"floaroma-meadow"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/177\/","name":"fullmoon-island"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/178\/","name":"sendoff-spring"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/179\/","name":"flower-paradise"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/180\/","name":"maniac-tunnel"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/181\/","name":"galactic-hq"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/182\/","name":"verity-lakefront"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/183\/","name":"newmoon-island"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/184\/","name":"sinnoh-battle-tower"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/185\/","name":"fight-area"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/186\/","name":"survival-area"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/187\/","name":"seabreak-path"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/188\/","name":"sinnoh-hall-of-origin-1"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/189\/","name":"sinnoh-hall-of-origin-2"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/190\/","name":"verity-cavern"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/191\/","name":"valor-cavern"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/192\/","name":"acuity-cavern"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/193\/","name":"jubilife-tv"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/194\/","name":"poketch-co"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/195\/","name":"gts"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/196\/","name":"trainers-school"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/197\/","name":"mining-museum"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/198\/","name":"sinnoh-flower-shop"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/199\/","name":"sinnoh-cycle-shop"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/200\/","name":"contest-hall"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/201\/","name":"poffin-house"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/202\/","name":"sinnoh-foreign-building"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/203\/","name":"pokemon-day-care"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/204\/","name":"veilstone-store"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/205\/","name":"sinnoh-game-corner"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/206\/","name":"canalave-library"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/207\/","name":"vista-lighthouse"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/208\/","name":"sunyshore-market"}],"next":"https:\/\/pokeapi.co\/api\/v2\/location\/?limit=50&offset=200"}'
+    http_version: 
+  recorded_at: Mon, 10 Sep 2018 01:36:54 GMT
+- request:
+    method: get
+    uri: http://pokeapi.co/api/v2/location?limit=50&offset=200
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.4.4 (2018-03-28))
+      Accept:
+      - "*/*"
+      Date:
+      - Mon, 10 Sep 2018 01:36:54 GMT
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Date:
+      - Mon, 10 Sep 2018 01:36:54 GMT
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - max-age=3600
+      Expires:
+      - Mon, 10 Sep 2018 02:36:54 GMT
+      Location:
+      - https://pokeapi.co/api/v2/location?limit=50&offset=200
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 457e2a9742565a8c-BOS
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Mon, 10 Sep 2018 01:36:54 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/location?limit=50&offset=200
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.4.4 (2018-03-28))
+      Accept:
+      - "*/*"
+      Date:
+      - Mon, 10 Sep 2018 01:36:54 GMT
+      Cookie:
+      - __cfduid=d0a24b5b700504dcd3c45abf1e2c9ea1b1536543413
+  response:
+    status:
+      code: 301
+      message: MOVED PERMANENTLY
+    headers:
+      Date:
+      - Mon, 10 Sep 2018 01:36:55 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Frame-Options:
+      - SAMEORIGIN
+      Location:
+      - https://pokeapi.co/api/v2/location/?limit=50&offset=200
+      X-Xss-Protection:
+      - 1; mode=block
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 457e2a976c22ae38-BOS
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Mon, 10 Sep 2018 01:36:55 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/location/?limit=50&offset=200
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.4.4 (2018-03-28))
+      Accept:
+      - "*/*"
+      Date:
+      - Mon, 10 Sep 2018 01:36:55 GMT
+      Cookie:
+      - __cfduid=d0a24b5b700504dcd3c45abf1e2c9ea1b1536543413
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 10 Sep 2018 01:36:55 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      - Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+      Allow:
+      - GET, HEAD, OPTIONS
+      X-Xss-Protection:
+      - 1; mode=block
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 457e2a98ad04ae38-BOS
+    body:
+      encoding: UTF-8
+      string: '{"count":673,"previous":"https:\/\/pokeapi.co\/api\/v2\/location\/?limit=50&offset=150","results":[{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/209\/","name":"footstep-house"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/210\/","name":"sinnoh-cafe"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/211\/","name":"grand-lake"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/212\/","name":"sinnoh-restaurant"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/213\/","name":"battle-park"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/214\/","name":"battle-frontier"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/215\/","name":"battle-factory"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/216\/","name":"battle-castle"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/217\/","name":"battle-arcade"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/218\/","name":"battle-hall"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/219\/","name":"distortion-world"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/220\/","name":"sinnoh-global-terminal"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/221\/","name":"sinnoh-villa"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/222\/","name":"battleground"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/223\/","name":"rotoms-room"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/224\/","name":"tg-eterna-bldg"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/225\/","name":"iron-ruins"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/226\/","name":"iceberg-ruins"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/227\/","name":"rock-peak-ruins"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/228\/","name":"azalea-town"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/229\/","name":"goldenrod-city"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/230\/","name":"mahogany-town"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/231\/","name":"pewter-city"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/232\/","name":"lavender-town"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/233\/","name":"indigo-plateau"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/234\/","name":"saffron-city"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/236\/","name":"johto-lighthouse"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/237\/","name":"team-rocket-hq"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/238\/","name":"goldenrod-tunnel"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/239\/","name":"mt-silver-cave"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/241\/","name":"pokeathlon-dome"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/242\/","name":"ss-aqua"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/243\/","name":"safari-zone-gate"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/244\/","name":"cliff-cave"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/245\/","name":"frontier-access"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/246\/","name":"bellchime-trail"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/247\/","name":"sinjoh-ruins"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/248\/","name":"embedded-tower"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/249\/","name":"pokewalker"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/250\/","name":"cliff-edge-gate"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/252\/","name":"radio-tower"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/253\/","name":"day-care-couple"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/254\/","name":"link-trade-arrive"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/255\/","name":"link-trade-met"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/256\/","name":"kanto"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/257\/","name":"johto"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/258\/","name":"hoenn"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/259\/","name":"sinnoh"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/260\/","name":"distant-land"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/261\/","name":"traveling-man"}],"next":"https:\/\/pokeapi.co\/api\/v2\/location\/?limit=50&offset=250"}'
+    http_version: 
+  recorded_at: Mon, 10 Sep 2018 01:36:55 GMT
+- request:
+    method: get
+    uri: http://pokeapi.co/api/v2/location?limit=50&offset=250
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.4.4 (2018-03-28))
+      Accept:
+      - "*/*"
+      Date:
+      - Mon, 10 Sep 2018 01:36:55 GMT
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Date:
+      - Mon, 10 Sep 2018 01:36:55 GMT
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - max-age=3600
+      Expires:
+      - Mon, 10 Sep 2018 02:36:55 GMT
+      Location:
+      - https://pokeapi.co/api/v2/location?limit=50&offset=250
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 457e2a99e2ca5a8c-BOS
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Mon, 10 Sep 2018 01:36:55 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/location?limit=50&offset=250
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.4.4 (2018-03-28))
+      Accept:
+      - "*/*"
+      Date:
+      - Mon, 10 Sep 2018 01:36:55 GMT
+      Cookie:
+      - __cfduid=d0a24b5b700504dcd3c45abf1e2c9ea1b1536543413
+  response:
+    status:
+      code: 301
+      message: MOVED PERMANENTLY
+    headers:
+      Date:
+      - Mon, 10 Sep 2018 01:36:55 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Frame-Options:
+      - SAMEORIGIN
+      Location:
+      - https://pokeapi.co/api/v2/location/?limit=50&offset=250
+      X-Xss-Protection:
+      - 1; mode=block
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 457e2a9a0ddeae38-BOS
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Mon, 10 Sep 2018 01:36:55 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/location/?limit=50&offset=250
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.4.4 (2018-03-28))
+      Accept:
+      - "*/*"
+      Date:
+      - Mon, 10 Sep 2018 01:36:55 GMT
+      Cookie:
+      - __cfduid=d0a24b5b700504dcd3c45abf1e2c9ea1b1536543413
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 10 Sep 2018 01:36:55 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      - Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+      Allow:
+      - GET, HEAD, OPTIONS
+      X-Xss-Protection:
+      - 1; mode=block
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 457e2a9b4ef3ae38-BOS
+    body:
+      encoding: UTF-8
+      string: '{"count":673,"previous":"https:\/\/pokeapi.co\/api\/v2\/location\/?limit=50&offset=200","results":[{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/262\/","name":"riley"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/263\/","name":"cynthia"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/264\/","name":"mystery-zone"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/265\/","name":"lovely-place"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/266\/","name":"pokemon-ranger"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/267\/","name":"faraway-place"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/268\/","name":"pokemon-movie"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/269\/","name":"pokemon-movie-06"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/270\/","name":"pokemon-movie-07"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/271\/","name":"pokemon-movie-08"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/272\/","name":"pokemon-movie-09"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/273\/","name":"pokemon-movie-10"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/274\/","name":"pokemon-movie-11"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/275\/","name":"pokemon-movie-12"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/276\/","name":"pokemon-movie-13"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/277\/","name":"pokemon-movie-14"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/278\/","name":"pokemon-movie-15"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/279\/","name":"pokemon-movie-16"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/280\/","name":"pokemon-cartoon"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/281\/","name":"space-world"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/282\/","name":"space-world-06"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/283\/","name":"space-world-07"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/284\/","name":"space-world-08"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/285\/","name":"space-world-09"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/286\/","name":"space-world-10"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/287\/","name":"space-world-11"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/288\/","name":"space-world-12"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/289\/","name":"space-world-13"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/290\/","name":"space-world-14"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/291\/","name":"space-world-15"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/292\/","name":"space-world-16"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/293\/","name":"pokemon-festa"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/294\/","name":"pokemon-festa-06"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/295\/","name":"pokemon-festa-07"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/296\/","name":"pokemon-festa-08"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/297\/","name":"pokemon-festa-09"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/298\/","name":"pokemon-festa-10"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/299\/","name":"pokemon-festa-11"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/300\/","name":"pokemon-festa-12"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/301\/","name":"pokemon-festa-13"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/302\/","name":"pokemon-festa-14"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/303\/","name":"pokemon-festa-15"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/304\/","name":"pokemon-festa-16"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/305\/","name":"pokepark"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/306\/","name":"pokepark-06"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/307\/","name":"pokepark-07"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/308\/","name":"pokepark-08"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/309\/","name":"pokepark-09"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/310\/","name":"pokepark-10"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/311\/","name":"pokepark-11"}],"next":"https:\/\/pokeapi.co\/api\/v2\/location\/?limit=50&offset=300"}'
+    http_version: 
+  recorded_at: Mon, 10 Sep 2018 01:36:55 GMT
+- request:
+    method: get
+    uri: http://pokeapi.co/api/v2/location?limit=50&offset=300
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.4.4 (2018-03-28))
+      Accept:
+      - "*/*"
+      Date:
+      - Mon, 10 Sep 2018 01:36:55 GMT
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Date:
+      - Mon, 10 Sep 2018 01:36:55 GMT
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - max-age=3600
+      Expires:
+      - Mon, 10 Sep 2018 02:36:55 GMT
+      Location:
+      - https://pokeapi.co/api/v2/location?limit=50&offset=300
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 457e2a9de37b5a8c-BOS
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Mon, 10 Sep 2018 01:36:55 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/location?limit=50&offset=300
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.4.4 (2018-03-28))
+      Accept:
+      - "*/*"
+      Date:
+      - Mon, 10 Sep 2018 01:36:55 GMT
+      Cookie:
+      - __cfduid=d0a24b5b700504dcd3c45abf1e2c9ea1b1536543413
+  response:
+    status:
+      code: 301
+      message: MOVED PERMANENTLY
+    headers:
+      Date:
+      - Mon, 10 Sep 2018 01:36:56 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Frame-Options:
+      - SAMEORIGIN
+      Location:
+      - https://pokeapi.co/api/v2/location/?limit=50&offset=300
+      X-Xss-Protection:
+      - 1; mode=block
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 457e2a9df90aae38-BOS
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Mon, 10 Sep 2018 01:36:56 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/location/?limit=50&offset=300
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.4.4 (2018-03-28))
+      Accept:
+      - "*/*"
+      Date:
+      - Mon, 10 Sep 2018 01:36:56 GMT
+      Cookie:
+      - __cfduid=d0a24b5b700504dcd3c45abf1e2c9ea1b1536543413
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 10 Sep 2018 01:36:56 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      - Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+      Allow:
+      - GET, HEAD, OPTIONS
+      X-Xss-Protection:
+      - 1; mode=block
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 457e2a9f2a02ae38-BOS
+    body:
+      encoding: UTF-8
+      string: '{"count":673,"previous":"https:\/\/pokeapi.co\/api\/v2\/location\/?limit=50&offset=250","results":[{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/312\/","name":"pokepark-12"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/313\/","name":"pokepark-13"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/314\/","name":"pokepark-14"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/315\/","name":"pokepark-15"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/316\/","name":"pokepark-16"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/317\/","name":"pokemon-center"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/318\/","name":"pc-tokyo"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/319\/","name":"pc-osaka"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/320\/","name":"pc-fukuoka"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/321\/","name":"pc-nagoya"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/322\/","name":"pc-sapporo"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/323\/","name":"pc-yokohama"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/324\/","name":"nintendo-world"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/325\/","name":"pokemon-event"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/326\/","name":"pokemon-event-06"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/327\/","name":"pokemon-event-07"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/328\/","name":"pokemon-event-08"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/329\/","name":"pokemon-event-09"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/330\/","name":"pokemon-event-10"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/331\/","name":"pokemon-event-11"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/332\/","name":"pokemon-event-12"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/333\/","name":"pokemon-event-13"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/334\/","name":"pokemon-event-14"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/335\/","name":"pokemon-event-15"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/336\/","name":"pokemon-event-16"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/337\/","name":"wi-fi-event"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/338\/","name":"wi-fi-gift"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/339\/","name":"pokemon-fan-club"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/340\/","name":"event-site"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/341\/","name":"concert-event"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/342\/","name":"mr-pokemon"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/343\/","name":"primo"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/344\/","name":"unova-mystery-zone"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/345\/","name":"unova-faraway-place"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/346\/","name":"nuvema-town"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/347\/","name":"accumula-town"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/348\/","name":"striaton-city"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/349\/","name":"nacrene-city"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/350\/","name":"castelia-city"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/351\/","name":"nimbasa-city"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/352\/","name":"driftveil-city"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/353\/","name":"mistralton-city"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/354\/","name":"icirrus-city"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/355\/","name":"opelucid-city"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/356\/","name":"unova-route-1"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/357\/","name":"unova-route-2"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/358\/","name":"unova-route-3"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/359\/","name":"unova-route-4"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/360\/","name":"unova-route-5"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/361\/","name":"unova-route-6"}],"next":"https:\/\/pokeapi.co\/api\/v2\/location\/?limit=50&offset=350"}'
+    http_version: 
+  recorded_at: Mon, 10 Sep 2018 01:36:56 GMT
+- request:
+    method: get
+    uri: http://pokeapi.co/api/v2/location?limit=50&offset=350
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.4.4 (2018-03-28))
+      Accept:
+      - "*/*"
+      Date:
+      - Mon, 10 Sep 2018 01:36:56 GMT
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Date:
+      - Mon, 10 Sep 2018 01:36:56 GMT
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - max-age=3600
+      Expires:
+      - Mon, 10 Sep 2018 02:36:56 GMT
+      Location:
+      - https://pokeapi.co/api/v2/location?limit=50&offset=350
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 457e2a9fe3c85a8c-BOS
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Mon, 10 Sep 2018 01:36:56 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/location?limit=50&offset=350
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.4.4 (2018-03-28))
+      Accept:
+      - "*/*"
+      Date:
+      - Mon, 10 Sep 2018 01:36:56 GMT
+      Cookie:
+      - __cfduid=d0a24b5b700504dcd3c45abf1e2c9ea1b1536543413
+  response:
+    status:
+      code: 301
+      message: MOVED PERMANENTLY
+    headers:
+      Date:
+      - Mon, 10 Sep 2018 01:36:56 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Frame-Options:
+      - SAMEORIGIN
+      Location:
+      - https://pokeapi.co/api/v2/location/?limit=50&offset=350
+      X-Xss-Protection:
+      - 1; mode=block
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 457e2aa00a8cae38-BOS
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Mon, 10 Sep 2018 01:36:56 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/location/?limit=50&offset=350
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.4.4 (2018-03-28))
+      Accept:
+      - "*/*"
+      Date:
+      - Mon, 10 Sep 2018 01:36:56 GMT
+      Cookie:
+      - __cfduid=d0a24b5b700504dcd3c45abf1e2c9ea1b1536543413
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 10 Sep 2018 01:36:56 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      - Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+      Allow:
+      - GET, HEAD, OPTIONS
+      X-Xss-Protection:
+      - 1; mode=block
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 457e2aa0bb00ae38-BOS
+    body:
+      encoding: UTF-8
+      string: '{"count":673,"previous":"https:\/\/pokeapi.co\/api\/v2\/location\/?limit=50&offset=300","results":[{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/362\/","name":"unova-route-7"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/363\/","name":"unova-route-8"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/364\/","name":"unova-route-9"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/365\/","name":"unova-route-10"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/366\/","name":"unova-route-11"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/367\/","name":"unova-route-12"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/368\/","name":"unova-route-13"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/369\/","name":"unova-route-14"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/370\/","name":"unova-route-15"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/371\/","name":"unova-route-16"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/372\/","name":"unova-route-17"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/373\/","name":"unova-route-18"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/374\/","name":"dreamyard"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/375\/","name":"pinwheel-forest"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/376\/","name":"desert-resort"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/377\/","name":"relic-castle"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/378\/","name":"cold-storage"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/379\/","name":"chargestone-cave"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/380\/","name":"twist-mountain"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/381\/","name":"dragonspiral-tower"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/382\/","name":"unova-victory-road"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/383\/","name":"lacunosa-town"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/384\/","name":"undella-town"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/385\/","name":"anville-town"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/386\/","name":"unova-pokemon-league"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/387\/","name":"ns-castle"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/388\/","name":"royal-unova"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/389\/","name":"gear-station"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/390\/","name":"battle-subway"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/391\/","name":"musical-theater"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/392\/","name":"black-city"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/393\/","name":"white-forest"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/394\/","name":"unity-tower"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/395\/","name":"wellspring-cave"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/396\/","name":"mistralton-cave"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/397\/","name":"rumination-field"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/398\/","name":"celestial-tower"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/399\/","name":"moor-of-icirrus"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/400\/","name":"unova-shopping-mall"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/401\/","name":"challengers-cave"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/402\/","name":"poke-transfer-lab"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/403\/","name":"giant-chasm"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/404\/","name":"liberty-garden"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/405\/","name":"p2-laboratory"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/406\/","name":"skyarrow-bridge"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/407\/","name":"driftveil-drawbridge"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/408\/","name":"tubeline-bridge"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/409\/","name":"village-bridge"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/410\/","name":"marvelous-bridge"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/411\/","name":"entralink"}],"next":"https:\/\/pokeapi.co\/api\/v2\/location\/?limit=50&offset=400"}'
+    http_version: 
+  recorded_at: Mon, 10 Sep 2018 01:36:56 GMT
+- request:
+    method: get
+    uri: http://pokeapi.co/api/v2/location?limit=50&offset=400
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.4.4 (2018-03-28))
+      Accept:
+      - "*/*"
+      Date:
+      - Mon, 10 Sep 2018 01:36:56 GMT
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Date:
+      - Mon, 10 Sep 2018 01:36:56 GMT
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - max-age=3600
+      Expires:
+      - Mon, 10 Sep 2018 02:36:56 GMT
+      Location:
+      - https://pokeapi.co/api/v2/location?limit=50&offset=400
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 457e2aa174045a8c-BOS
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Mon, 10 Sep 2018 01:36:56 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/location?limit=50&offset=400
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.4.4 (2018-03-28))
+      Accept:
+      - "*/*"
+      Date:
+      - Mon, 10 Sep 2018 01:36:56 GMT
+      Cookie:
+      - __cfduid=d0a24b5b700504dcd3c45abf1e2c9ea1b1536543413
+  response:
+    status:
+      code: 301
+      message: MOVED PERMANENTLY
+    headers:
+      Date:
+      - Mon, 10 Sep 2018 01:36:56 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Frame-Options:
+      - SAMEORIGIN
+      Location:
+      - https://pokeapi.co/api/v2/location/?limit=50&offset=400
+      X-Xss-Protection:
+      - 1; mode=block
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 457e2aa19bb5ae38-BOS
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Mon, 10 Sep 2018 01:36:56 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/location/?limit=50&offset=400
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.4.4 (2018-03-28))
+      Accept:
+      - "*/*"
+      Date:
+      - Mon, 10 Sep 2018 01:36:56 GMT
+      Cookie:
+      - __cfduid=d0a24b5b700504dcd3c45abf1e2c9ea1b1536543413
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 10 Sep 2018 01:36:56 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      - Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+      Allow:
+      - GET, HEAD, OPTIONS
+      X-Xss-Protection:
+      - 1; mode=block
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 457e2aa2bc74ae38-BOS
+    body:
+      encoding: UTF-8
+      string: '{"count":673,"previous":"https:\/\/pokeapi.co\/api\/v2\/location\/?limit=50&offset=350","results":[{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/412\/","name":"abundant-shrine"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/413\/","name":"undella-bay"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/414\/","name":"lostlorn-forest"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/415\/","name":"trial-chamber"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/416\/","name":"guidance-chamber"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/417\/","name":"entree-forest"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/418\/","name":"accumula-gate"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/419\/","name":"undella-gate"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/420\/","name":"nacrene-gate"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/421\/","name":"castelia-gate"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/422\/","name":"nimbasa-gate"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/423\/","name":"opelucid-gate"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/424\/","name":"black-gate"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/425\/","name":"white-gate"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/426\/","name":"bridge-gate"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/427\/","name":"route-gate"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/428\/","name":"abyssal-ruins"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/429\/","name":"petalburg-city"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/430\/","name":"slateport-city"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/431\/","name":"lilycove-city"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/432\/","name":"mossdeep-city"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/433\/","name":"sootopolis-city"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/434\/","name":"ever-grande-city"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/435\/","name":"meteor-falls"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/436\/","name":"rusturf-tunnel"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/437\/","name":"granite-cave"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/438\/","name":"petalburg-woods"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/439\/","name":"jagged-pass"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/440\/","name":"fiery-path"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/441\/","name":"mt-pyre"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/442\/","name":"seafloor-cavern"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/443\/","name":"cave-of-origin"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/444\/","name":"hoenn-victory-road"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/445\/","name":"shoal-cave"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/446\/","name":"new-mauville"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/447\/","name":"abandoned-ship"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/448\/","name":"sky-pillar"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/449\/","name":"hoenn-route-101"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/450\/","name":"hoenn-route-102"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/451\/","name":"hoenn-route-103"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/452\/","name":"hoenn-route-104"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/453\/","name":"hoenn-route-105"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/454\/","name":"hoenn-route-106"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/455\/","name":"hoenn-route-107"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/456\/","name":"hoenn-route-108"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/457\/","name":"hoenn-route-109"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/458\/","name":"hoenn-route-110"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/459\/","name":"hoenn-route-111"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/460\/","name":"hoenn-route-112"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/461\/","name":"hoenn-route-113"}],"next":"https:\/\/pokeapi.co\/api\/v2\/location\/?limit=50&offset=450"}'
+    http_version: 
+  recorded_at: Mon, 10 Sep 2018 01:36:56 GMT
+- request:
+    method: get
+    uri: http://pokeapi.co/api/v2/location?limit=50&offset=450
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.4.4 (2018-03-28))
+      Accept:
+      - "*/*"
+      Date:
+      - Mon, 10 Sep 2018 01:36:56 GMT
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Date:
+      - Mon, 10 Sep 2018 01:36:56 GMT
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - max-age=3600
+      Expires:
+      - Mon, 10 Sep 2018 02:36:56 GMT
+      Location:
+      - https://pokeapi.co/api/v2/location?limit=50&offset=450
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 457e2aa3f4645a8c-BOS
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Mon, 10 Sep 2018 01:36:56 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/location?limit=50&offset=450
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.4.4 (2018-03-28))
+      Accept:
+      - "*/*"
+      Date:
+      - Mon, 10 Sep 2018 01:36:56 GMT
+      Cookie:
+      - __cfduid=d0a24b5b700504dcd3c45abf1e2c9ea1b1536543413
+  response:
+    status:
+      code: 301
+      message: MOVED PERMANENTLY
+    headers:
+      Date:
+      - Mon, 10 Sep 2018 01:36:57 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Frame-Options:
+      - SAMEORIGIN
+      Location:
+      - https://pokeapi.co/api/v2/location/?limit=50&offset=450
+      X-Xss-Protection:
+      - 1; mode=block
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 457e2aa40d9dae38-BOS
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Mon, 10 Sep 2018 01:36:57 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/location/?limit=50&offset=450
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.4.4 (2018-03-28))
+      Accept:
+      - "*/*"
+      Date:
+      - Mon, 10 Sep 2018 01:36:57 GMT
+      Cookie:
+      - __cfduid=d0a24b5b700504dcd3c45abf1e2c9ea1b1536543413
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 10 Sep 2018 01:36:57 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      - Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+      Allow:
+      - GET, HEAD, OPTIONS
+      X-Xss-Protection:
+      - 1; mode=block
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 457e2aa52e70ae38-BOS
+    body:
+      encoding: UTF-8
+      string: '{"count":673,"previous":"https:\/\/pokeapi.co\/api\/v2\/location\/?limit=50&offset=400","results":[{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/462\/","name":"hoenn-route-114"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/463\/","name":"hoenn-route-115"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/464\/","name":"hoenn-route-116"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/465\/","name":"hoenn-route-117"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/466\/","name":"hoenn-route-118"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/467\/","name":"hoenn-route-119"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/468\/","name":"hoenn-route-120"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/469\/","name":"hoenn-route-121"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/470\/","name":"hoenn-route-122"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/471\/","name":"hoenn-route-123"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/472\/","name":"hoenn-route-124"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/473\/","name":"hoenn-route-125"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/474\/","name":"hoenn-route-126"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/475\/","name":"hoenn-route-127"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/476\/","name":"hoenn-route-128"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/477\/","name":"hoenn-route-129"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/478\/","name":"hoenn-route-130"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/479\/","name":"hoenn-route-131"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/480\/","name":"hoenn-route-132"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/481\/","name":"hoenn-route-133"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/482\/","name":"hoenn-route-134"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/483\/","name":"hoenn-safari-zone"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/484\/","name":"dewford-town"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/485\/","name":"pacifidlog-town"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/486\/","name":"magma-hideout"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/487\/","name":"mirage-tower"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/488\/","name":"desert-underpass"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/489\/","name":"artisan-cave"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/490\/","name":"hoenn-altering-cave"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/491\/","name":"monean-chamber"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/492\/","name":"liptoo-chamber"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/493\/","name":"weepth-chamber"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/494\/","name":"dilford-chamber"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/495\/","name":"scufib-chamber"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/496\/","name":"rixy-chamber"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/497\/","name":"viapos-chamber"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/498\/","name":"ss-anne"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/500\/","name":"mt-ember"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/501\/","name":"berry-forest"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/502\/","name":"icefall-cave"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/503\/","name":"pattern-bush"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/504\/","name":"lost-cave"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/505\/","name":"kindle-road"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/506\/","name":"treasure-beach"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/507\/","name":"cape-brink"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/508\/","name":"bond-bridge"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/509\/","name":"three-isle-port"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/510\/","name":"resort-gorgeous"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/511\/","name":"water-labyrinth"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/512\/","name":"five-isle-meadow"}],"next":"https:\/\/pokeapi.co\/api\/v2\/location\/?limit=50&offset=500"}'
+    http_version: 
+  recorded_at: Mon, 10 Sep 2018 01:36:57 GMT
+- request:
+    method: get
+    uri: http://pokeapi.co/api/v2/location?limit=50&offset=500
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.4.4 (2018-03-28))
+      Accept:
+      - "*/*"
+      Date:
+      - Mon, 10 Sep 2018 01:36:57 GMT
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Date:
+      - Mon, 10 Sep 2018 01:36:57 GMT
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - max-age=3600
+      Expires:
+      - Mon, 10 Sep 2018 02:36:57 GMT
+      Location:
+      - https://pokeapi.co/api/v2/location?limit=50&offset=500
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 457e2aa5e4a85a8c-BOS
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Mon, 10 Sep 2018 01:36:57 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/location?limit=50&offset=500
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.4.4 (2018-03-28))
+      Accept:
+      - "*/*"
+      Date:
+      - Mon, 10 Sep 2018 01:36:57 GMT
+      Cookie:
+      - __cfduid=d0a24b5b700504dcd3c45abf1e2c9ea1b1536543413
+  response:
+    status:
+      code: 301
+      message: MOVED PERMANENTLY
+    headers:
+      Date:
+      - Mon, 10 Sep 2018 01:36:57 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Frame-Options:
+      - SAMEORIGIN
+      Location:
+      - https://pokeapi.co/api/v2/location/?limit=50&offset=500
+      X-Xss-Protection:
+      - 1; mode=block
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 457e2aa60f23ae38-BOS
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Mon, 10 Sep 2018 01:36:57 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/location/?limit=50&offset=500
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.4.4 (2018-03-28))
+      Accept:
+      - "*/*"
+      Date:
+      - Mon, 10 Sep 2018 01:36:57 GMT
+      Cookie:
+      - __cfduid=d0a24b5b700504dcd3c45abf1e2c9ea1b1536543413
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 10 Sep 2018 01:36:57 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      - Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+      Allow:
+      - GET, HEAD, OPTIONS
+      X-Xss-Protection:
+      - 1; mode=block
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 457e2aa6af7eae38-BOS
+    body:
+      encoding: UTF-8
+      string: '{"count":673,"previous":"https:\/\/pokeapi.co\/api\/v2\/location\/?limit=50&offset=450","results":[{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/513\/","name":"memorial-pillar"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/514\/","name":"outcast-island"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/515\/","name":"green-path"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/516\/","name":"water-path"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/517\/","name":"ruin-valley"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/518\/","name":"trainer-tower"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/519\/","name":"canyon-entrance"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/520\/","name":"sevault-canyon"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/521\/","name":"tanoby-ruins"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/526\/","name":"one-island"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/527\/","name":"four-island"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/528\/","name":"five-island"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/529\/","name":"kanto-altering-cave"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/531\/","name":"aspertia-city"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/532\/","name":"virbank-city"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/533\/","name":"humilau-city"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/534\/","name":"pokestar-studios"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/535\/","name":"join-avenue"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/536\/","name":"floccesy-town"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/537\/","name":"lentimas-town"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/538\/","name":"route-19"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/539\/","name":"route-20"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/540\/","name":"route-21"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/541\/","name":"route-22"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/542\/","name":"route-23"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/543\/","name":"castelia-sewers"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/544\/","name":"floccesy-ranch"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/545\/","name":"virbank-complex"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/546\/","name":"reversal-mountain"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/547\/","name":"strange-house"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/548\/","name":"unova-victory-road-2"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/549\/","name":"plasma-frigate"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/550\/","name":"relic-passage"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/551\/","name":"clay-tunnel"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/552\/","name":"white-treehollow"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/553\/","name":"black-tower"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/554\/","name":"seaside-cave"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/555\/","name":"cave-of-being"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/556\/","name":"hidden-grotto"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/557\/","name":"marine-tube"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/558\/","name":"virbank-gate"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/559\/","name":"aspertia-gate"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/560\/","name":"nature-sanctuary"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/561\/","name":"medal-secretariat"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/562\/","name":"underground-ruins"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/563\/","name":"rocky-mountain-room"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/564\/","name":"glacier-room"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/565\/","name":"iron-room"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/566\/","name":"pledge-grove"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/567\/","name":"littleroot-town"}],"next":"https:\/\/pokeapi.co\/api\/v2\/location\/?limit=50&offset=550"}'
+    http_version: 
+  recorded_at: Mon, 10 Sep 2018 01:36:57 GMT
+- request:
+    method: get
+    uri: http://pokeapi.co/api/v2/location?limit=50&offset=550
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.4.4 (2018-03-28))
+      Accept:
+      - "*/*"
+      Date:
+      - Mon, 10 Sep 2018 01:36:57 GMT
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Date:
+      - Mon, 10 Sep 2018 01:36:57 GMT
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - max-age=3600
+      Expires:
+      - Mon, 10 Sep 2018 02:36:57 GMT
+      Location:
+      - https://pokeapi.co/api/v2/location?limit=50&offset=550
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 457e2aa774e75a8c-BOS
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Mon, 10 Sep 2018 01:36:57 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/location?limit=50&offset=550
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.4.4 (2018-03-28))
+      Accept:
+      - "*/*"
+      Date:
+      - Mon, 10 Sep 2018 01:36:57 GMT
+      Cookie:
+      - __cfduid=d0a24b5b700504dcd3c45abf1e2c9ea1b1536543413
+  response:
+    status:
+      code: 301
+      message: MOVED PERMANENTLY
+    headers:
+      Date:
+      - Mon, 10 Sep 2018 01:36:57 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Frame-Options:
+      - SAMEORIGIN
+      Location:
+      - https://pokeapi.co/api/v2/location/?limit=50&offset=550
+      X-Xss-Protection:
+      - 1; mode=block
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 457e2aa79825ae38-BOS
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Mon, 10 Sep 2018 01:36:57 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/location/?limit=50&offset=550
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.4.4 (2018-03-28))
+      Accept:
+      - "*/*"
+      Date:
+      - Mon, 10 Sep 2018 01:36:57 GMT
+      Cookie:
+      - __cfduid=d0a24b5b700504dcd3c45abf1e2c9ea1b1536543413
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 10 Sep 2018 01:36:57 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      - Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+      Allow:
+      - GET, HEAD, OPTIONS
+      X-Xss-Protection:
+      - 1; mode=block
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 457e2aa82893ae38-BOS
+    body:
+      encoding: UTF-8
+      string: '{"count":673,"previous":"https:\/\/pokeapi.co\/api\/v2\/location\/?limit=50&offset=500","results":[{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/568\/","name":"oldale-town"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/569\/","name":"lavaridge-town"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/570\/","name":"fallarbor-town"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/571\/","name":"verdanturf-town"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/572\/","name":"mauville-city"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/573\/","name":"rustboro-city"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/574\/","name":"fortree-city"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/575\/","name":"underwater"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/576\/","name":"mt-chimney"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/577\/","name":"mirage-island"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/578\/","name":"southern-island"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/579\/","name":"sealed-chamber"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/580\/","name":"scorched-slab"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/581\/","name":"island-cave"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/582\/","name":"desert-ruins"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/583\/","name":"ancient-tomb"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/584\/","name":"inside-of-truck"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/585\/","name":"secret-base"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/586\/","name":"hoenn-battle-tower"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/587\/","name":"vaniville-town"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/588\/","name":"kalos-route-1"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/589\/","name":"vaniville-pathway"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/590\/","name":"aquacorde-town"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/591\/","name":"kalos-route-2"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/592\/","name":"avance-trail"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/593\/","name":"santalune-forest"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/594\/","name":"kalos-route-3"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/595\/","name":"ouvert-way"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/596\/","name":"santalune-city"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/597\/","name":"kalos-route-4"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/598\/","name":"parterre-way"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/599\/","name":"lumiose-city"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/600\/","name":"prism-tower"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/601\/","name":"lysandre-labs"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/602\/","name":"kalos-route-5"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/603\/","name":"versant-road"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/604\/","name":"camphrier-town"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/605\/","name":"shabboneau-castle"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/606\/","name":"kalos-route-6"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/607\/","name":"palais-lane"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/608\/","name":"parfum-palace"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/609\/","name":"kalos-route-7"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/610\/","name":"rivi\u00e8re-walk"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/611\/","name":"cyllage-city"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/612\/","name":"kalos-route-8"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/613\/","name":"muraille-coast"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/614\/","name":"ambrette-town"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/615\/","name":"kalos-route-9"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/616\/","name":"spikes-passage"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/617\/","name":"battle-chateau"}],"next":"https:\/\/pokeapi.co\/api\/v2\/location\/?limit=50&offset=600"}'
+    http_version: 
+  recorded_at: Mon, 10 Sep 2018 01:36:57 GMT
+- request:
+    method: get
+    uri: http://pokeapi.co/api/v2/location?limit=50&offset=600
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.4.4 (2018-03-28))
+      Accept:
+      - "*/*"
+      Date:
+      - Mon, 10 Sep 2018 01:36:57 GMT
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Date:
+      - Mon, 10 Sep 2018 01:36:57 GMT
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - max-age=3600
+      Expires:
+      - Mon, 10 Sep 2018 02:36:57 GMT
+      Location:
+      - https://pokeapi.co/api/v2/location?limit=50&offset=600
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 457e2aa9553d5a8c-BOS
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Mon, 10 Sep 2018 01:36:57 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/location?limit=50&offset=600
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.4.4 (2018-03-28))
+      Accept:
+      - "*/*"
+      Date:
+      - Mon, 10 Sep 2018 01:36:57 GMT
+      Cookie:
+      - __cfduid=d0a24b5b700504dcd3c45abf1e2c9ea1b1536543413
+  response:
+    status:
+      code: 301
+      message: MOVED PERMANENTLY
+    headers:
+      Date:
+      - Mon, 10 Sep 2018 01:36:57 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Frame-Options:
+      - SAMEORIGIN
+      Location:
+      - https://pokeapi.co/api/v2/location/?limit=50&offset=600
+      X-Xss-Protection:
+      - 1; mode=block
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 457e2aa979cbae38-BOS
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Mon, 10 Sep 2018 01:36:57 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/location/?limit=50&offset=600
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.4.4 (2018-03-28))
+      Accept:
+      - "*/*"
+      Date:
+      - Mon, 10 Sep 2018 01:36:57 GMT
+      Cookie:
+      - __cfduid=d0a24b5b700504dcd3c45abf1e2c9ea1b1536543413
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 10 Sep 2018 01:36:58 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      - Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+      Allow:
+      - GET, HEAD, OPTIONS
+      X-Xss-Protection:
+      - 1; mode=block
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 457e2aaa1a41ae38-BOS
+    body:
+      encoding: UTF-8
+      string: '{"count":673,"previous":"https:\/\/pokeapi.co\/api\/v2\/location\/?limit=50&offset=550","results":[{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/618\/","name":"kalos-route-10"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/619\/","name":"menhir-trail"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/620\/","name":"geosenge-town"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/621\/","name":"kalos-route-11"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/622\/","name":"miroir-way"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/623\/","name":"reflection-cave"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/624\/","name":"shalour-city"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/625\/","name":"tower-of-mastery"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/626\/","name":"kalos-route-12"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/627\/","name":"fourrage-road"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/628\/","name":"coumarine-city"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/629\/","name":"kalos-route-13"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/630\/","name":"lumiose-badlands"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/631\/","name":"kalos-route-14"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/632\/","name":"laverre-nature-trail"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/633\/","name":"laverre-city"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/634\/","name":"poke-ball-factory"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/635\/","name":"kalos-route-15"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/636\/","name":"brun-way"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/637\/","name":"dendemille-town"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/638\/","name":"kalos-route-16"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/639\/","name":"melancolie-path"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/640\/","name":"frost-cavern"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/641\/","name":"kalos-route-17"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/642\/","name":"mamoswine-road"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/643\/","name":"anistar-city"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/644\/","name":"kalos-route-18"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/645\/","name":"vallee-etroite-way"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/646\/","name":"couriway-town"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/647\/","name":"kalos-route-19"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/648\/","name":"grande-vallee-way"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/649\/","name":"snowbelle-city"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/650\/","name":"kalos-route-20"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/651\/","name":"winding-woods"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/652\/","name":"pokemon-village"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/653\/","name":"kalos-route-21"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/654\/","name":"derni\u00e8re-way"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/655\/","name":"kalos-route-22"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/656\/","name":"detourner-way"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/657\/","name":"victory-road"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/658\/","name":"pokemon-league"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/659\/","name":"kiloude-city"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/660\/","name":"battle-maison"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/661\/","name":"azure-bay"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/662\/","name":"dendemille-gate"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/663\/","name":"couriway-gate"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/664\/","name":"ambrette-gate"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/665\/","name":"lumiose-gate"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/666\/","name":"shalour-gate"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/667\/","name":"coumarine-gate"}],"next":"https:\/\/pokeapi.co\/api\/v2\/location\/?limit=50&offset=650"}'
+    http_version: 
+  recorded_at: Mon, 10 Sep 2018 01:36:58 GMT
+- request:
+    method: get
+    uri: http://pokeapi.co/api/v2/location?limit=50&offset=650
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.4.4 (2018-03-28))
+      Accept:
+      - "*/*"
+      Date:
+      - Mon, 10 Sep 2018 01:36:58 GMT
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Date:
+      - Mon, 10 Sep 2018 01:36:58 GMT
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - max-age=3600
+      Expires:
+      - Mon, 10 Sep 2018 02:36:58 GMT
+      Location:
+      - https://pokeapi.co/api/v2/location?limit=50&offset=650
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 457e2aaad5895a8c-BOS
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Mon, 10 Sep 2018 01:36:58 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/location?limit=50&offset=650
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.4.4 (2018-03-28))
+      Accept:
+      - "*/*"
+      Date:
+      - Mon, 10 Sep 2018 01:36:58 GMT
+      Cookie:
+      - __cfduid=d0a24b5b700504dcd3c45abf1e2c9ea1b1536543413
+  response:
+    status:
+      code: 301
+      message: MOVED PERMANENTLY
+    headers:
+      Date:
+      - Mon, 10 Sep 2018 01:36:58 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Frame-Options:
+      - SAMEORIGIN
+      Location:
+      - https://pokeapi.co/api/v2/location/?limit=50&offset=650
+      X-Xss-Protection:
+      - 1; mode=block
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 457e2aaafae3ae38-BOS
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Mon, 10 Sep 2018 01:36:58 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/location/?limit=50&offset=650
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.4.4 (2018-03-28))
+      Accept:
+      - "*/*"
+      Date:
+      - Mon, 10 Sep 2018 01:36:58 GMT
+      Cookie:
+      - __cfduid=d0a24b5b700504dcd3c45abf1e2c9ea1b1536543413
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 10 Sep 2018 01:36:58 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      - Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+      Allow:
+      - GET, HEAD, OPTIONS
+      X-Xss-Protection:
+      - 1; mode=block
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 457e2aac1c08ae38-BOS
+    body:
+      encoding: UTF-8
+      string: '{"count":673,"previous":"https:\/\/pokeapi.co\/api\/v2\/location\/?limit=50&offset=600","results":[{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/668\/","name":"laverre-gate"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/669\/","name":"anistar-gate"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/670\/","name":"snowbelle-gate"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/671\/","name":"glittering-cave"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/672\/","name":"connecting-cave"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/673\/","name":"zubat-roost"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/674\/","name":"kalos-power-plant"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/675\/","name":"team-flare-secret-hq"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/676\/","name":"terminus-cave"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/677\/","name":"lost-hotel"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/678\/","name":"chamber-of-emptiness"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/679\/","name":"sea-spirits-den"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/680\/","name":"friend-safari"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/681\/","name":"blazing-chamber"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/682\/","name":"flood-chamber"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/683\/","name":"ironworks-chamber"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/684\/","name":"dragonmark-chamber"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/685\/","name":"radiant-chamber"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/686\/","name":"pokemon-league-gate"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/687\/","name":"lumiose-station"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/688\/","name":"kiloude-station"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/689\/","name":"ambrette-aquarium"},{"url":"https:\/\/pokeapi.co\/api\/v2\/location\/690\/","name":"unknown-dungeon"}],"next":null}'
+    http_version: 
+  recorded_at: Mon, 10 Sep 2018 01:36:58 GMT
+recorded_with: VCR 4.0.0

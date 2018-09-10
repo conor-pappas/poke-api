@@ -1,0 +1,135 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://pokeapi.co/api/v2/item-pocket?limit=50&offset=0
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.4.4 (2018-03-28))
+      Accept:
+      - "*/*"
+      Date:
+      - Mon, 10 Sep 2018 01:35:43 GMT
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Date:
+      - Mon, 10 Sep 2018 01:35:43 GMT
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - max-age=3600
+      Expires:
+      - Mon, 10 Sep 2018 02:35:43 GMT
+      Location:
+      - https://pokeapi.co/api/v2/item-pocket?limit=50&offset=0
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 457e28d9f4885a4a-BOS
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Mon, 10 Sep 2018 01:35:43 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/item-pocket?limit=50&offset=0
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.4.4 (2018-03-28))
+      Accept:
+      - "*/*"
+      Date:
+      - Mon, 10 Sep 2018 01:35:43 GMT
+      Cookie:
+      - __cfduid=d61f5eb155365ab7b4506f58fff76348b1536543323
+  response:
+    status:
+      code: 301
+      message: MOVED PERMANENTLY
+    headers:
+      Date:
+      - Mon, 10 Sep 2018 01:35:44 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Frame-Options:
+      - SAMEORIGIN
+      Location:
+      - https://pokeapi.co/api/v2/item-pocket/?limit=50&offset=0
+      X-Xss-Protection:
+      - 1; mode=block
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 457e28da1de8ae44-BOS
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Mon, 10 Sep 2018 01:35:44 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/item-pocket/?limit=50&offset=0
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.4.4 (2018-03-28))
+      Accept:
+      - "*/*"
+      Date:
+      - Mon, 10 Sep 2018 01:35:44 GMT
+      Cookie:
+      - __cfduid=d61f5eb155365ab7b4506f58fff76348b1536543323
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 10 Sep 2018 01:35:44 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      - Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+      Allow:
+      - GET, HEAD, OPTIONS
+      X-Xss-Protection:
+      - 1; mode=block
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 457e28de7919ae44-BOS
+    body:
+      encoding: UTF-8
+      string: '{"count":8,"previous":null,"results":[{"url":"https:\/\/pokeapi.co\/api\/v2\/item-pocket\/1\/","name":"misc"},{"url":"https:\/\/pokeapi.co\/api\/v2\/item-pocket\/2\/","name":"medicine"},{"url":"https:\/\/pokeapi.co\/api\/v2\/item-pocket\/3\/","name":"pokeballs"},{"url":"https:\/\/pokeapi.co\/api\/v2\/item-pocket\/4\/","name":"machines"},{"url":"https:\/\/pokeapi.co\/api\/v2\/item-pocket\/5\/","name":"berries"},{"url":"https:\/\/pokeapi.co\/api\/v2\/item-pocket\/6\/","name":"mail"},{"url":"https:\/\/pokeapi.co\/api\/v2\/item-pocket\/7\/","name":"battle"},{"url":"https:\/\/pokeapi.co\/api\/v2\/item-pocket\/8\/","name":"key"}],"next":null}'
+    http_version: 
+  recorded_at: Mon, 10 Sep 2018 01:35:44 GMT
+recorded_with: VCR 4.0.0

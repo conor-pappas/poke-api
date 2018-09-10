@@ -1,5 +1,7 @@
+require "poke-api/api_wrapper"
+require "poke-api/client"
+require "poke-api/result_enumerator"
 require "poke-api/version"
-require "poke-api/loader"
 
 module PokeAPI
   RESOURCES = %w(

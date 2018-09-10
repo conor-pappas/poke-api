@@ -1,0 +1,135 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://pokeapi.co/api/v2/encounter-condition-value?limit=50&offset=0
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.4.4 (2018-03-28))
+      Accept:
+      - "*/*"
+      Date:
+      - Mon, 10 Sep 2018 01:35:39 GMT
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Date:
+      - Mon, 10 Sep 2018 01:35:40 GMT
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - max-age=3600
+      Expires:
+      - Mon, 10 Sep 2018 02:35:40 GMT
+      Location:
+      - https://pokeapi.co/api/v2/encounter-condition-value?limit=50&offset=0
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 457e28c3008e5a4a-BOS
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Mon, 10 Sep 2018 01:35:40 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/encounter-condition-value?limit=50&offset=0
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.4.4 (2018-03-28))
+      Accept:
+      - "*/*"
+      Date:
+      - Mon, 10 Sep 2018 01:35:40 GMT
+      Cookie:
+      - __cfduid=d61f5eb155365ab7b4506f58fff76348b1536543323
+  response:
+    status:
+      code: 301
+      message: MOVED PERMANENTLY
+    headers:
+      Date:
+      - Mon, 10 Sep 2018 01:35:40 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Frame-Options:
+      - SAMEORIGIN
+      Location:
+      - https://pokeapi.co/api/v2/encounter-condition-value/?limit=50&offset=0
+      X-Xss-Protection:
+      - 1; mode=block
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 457e28c31811ae44-BOS
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Mon, 10 Sep 2018 01:35:40 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/encounter-condition-value/?limit=50&offset=0
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.4.4 (2018-03-28))
+      Accept:
+      - "*/*"
+      Date:
+      - Mon, 10 Sep 2018 01:35:40 GMT
+      Cookie:
+      - __cfduid=d61f5eb155365ab7b4506f58fff76348b1536543323
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 10 Sep 2018 01:35:40 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      - Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+      Allow:
+      - GET, HEAD, OPTIONS
+      X-Xss-Protection:
+      - 1; mode=block
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 457e28c4893fae44-BOS
+    body:
+      encoding: UTF-8
+      string: '{"count":20,"previous":null,"results":[{"url":"https:\/\/pokeapi.co\/api\/v2\/encounter-condition-value\/1\/","name":"swarm-yes"},{"url":"https:\/\/pokeapi.co\/api\/v2\/encounter-condition-value\/2\/","name":"swarm-no"},{"url":"https:\/\/pokeapi.co\/api\/v2\/encounter-condition-value\/3\/","name":"time-morning"},{"url":"https:\/\/pokeapi.co\/api\/v2\/encounter-condition-value\/4\/","name":"time-day"},{"url":"https:\/\/pokeapi.co\/api\/v2\/encounter-condition-value\/5\/","name":"time-night"},{"url":"https:\/\/pokeapi.co\/api\/v2\/encounter-condition-value\/6\/","name":"radar-on"},{"url":"https:\/\/pokeapi.co\/api\/v2\/encounter-condition-value\/7\/","name":"radar-off"},{"url":"https:\/\/pokeapi.co\/api\/v2\/encounter-condition-value\/8\/","name":"slot2-none"},{"url":"https:\/\/pokeapi.co\/api\/v2\/encounter-condition-value\/9\/","name":"slot2-ruby"},{"url":"https:\/\/pokeapi.co\/api\/v2\/encounter-condition-value\/10\/","name":"slot2-sapphire"},{"url":"https:\/\/pokeapi.co\/api\/v2\/encounter-condition-value\/11\/","name":"slot2-emerald"},{"url":"https:\/\/pokeapi.co\/api\/v2\/encounter-condition-value\/12\/","name":"slot2-firered"},{"url":"https:\/\/pokeapi.co\/api\/v2\/encounter-condition-value\/13\/","name":"slot2-leafgreen"},{"url":"https:\/\/pokeapi.co\/api\/v2\/encounter-condition-value\/14\/","name":"radio-off"},{"url":"https:\/\/pokeapi.co\/api\/v2\/encounter-condition-value\/15\/","name":"radio-hoenn"},{"url":"https:\/\/pokeapi.co\/api\/v2\/encounter-condition-value\/16\/","name":"radio-sinnoh"},{"url":"https:\/\/pokeapi.co\/api\/v2\/encounter-condition-value\/17\/","name":"season-spring"},{"url":"https:\/\/pokeapi.co\/api\/v2\/encounter-condition-value\/18\/","name":"season-summer"},{"url":"https:\/\/pokeapi.co\/api\/v2\/encounter-condition-value\/19\/","name":"season-autumn"},{"url":"https:\/\/pokeapi.co\/api\/v2\/encounter-condition-value\/20\/","name":"season-winter"}],"next":null}'
+    http_version: 
+  recorded_at: Mon, 10 Sep 2018 01:35:40 GMT
+recorded_with: VCR 4.0.0

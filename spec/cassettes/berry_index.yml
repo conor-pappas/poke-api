@@ -1,0 +1,267 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://pokeapi.co/api/v2/berry?limit=50&offset=0
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.4.4 (2018-03-28))
+      Accept:
+      - "*/*"
+      Date:
+      - Mon, 10 Sep 2018 01:35:43 GMT
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Date:
+      - Mon, 10 Sep 2018 01:35:43 GMT
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - max-age=3600
+      Expires:
+      - Mon, 10 Sep 2018 02:35:43 GMT
+      Location:
+      - https://pokeapi.co/api/v2/berry?limit=50&offset=0
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 457e28d7041f5a4a-BOS
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Mon, 10 Sep 2018 01:35:43 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/berry?limit=50&offset=0
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.4.4 (2018-03-28))
+      Accept:
+      - "*/*"
+      Date:
+      - Mon, 10 Sep 2018 01:35:43 GMT
+      Cookie:
+      - __cfduid=d61f5eb155365ab7b4506f58fff76348b1536543323
+  response:
+    status:
+      code: 301
+      message: MOVED PERMANENTLY
+    headers:
+      Date:
+      - Mon, 10 Sep 2018 01:35:43 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Frame-Options:
+      - SAMEORIGIN
+      Location:
+      - https://pokeapi.co/api/v2/berry/?limit=50&offset=0
+      X-Xss-Protection:
+      - 1; mode=block
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 457e28d71beaae44-BOS
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Mon, 10 Sep 2018 01:35:43 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/berry/?limit=50&offset=0
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.4.4 (2018-03-28))
+      Accept:
+      - "*/*"
+      Date:
+      - Mon, 10 Sep 2018 01:35:43 GMT
+      Cookie:
+      - __cfduid=d61f5eb155365ab7b4506f58fff76348b1536543323
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 10 Sep 2018 01:35:43 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      - Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+      Allow:
+      - GET, HEAD, OPTIONS
+      X-Xss-Protection:
+      - 1; mode=block
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 457e28d7bc62ae44-BOS
+    body:
+      encoding: UTF-8
+      string: '{"count":64,"previous":null,"results":[{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/1\/","name":"cheri"},{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/2\/","name":"chesto"},{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/3\/","name":"pecha"},{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/4\/","name":"rawst"},{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/5\/","name":"aspear"},{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/6\/","name":"leppa"},{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/7\/","name":"oran"},{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/8\/","name":"persim"},{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/9\/","name":"lum"},{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/10\/","name":"sitrus"},{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/11\/","name":"figy"},{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/12\/","name":"wiki"},{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/13\/","name":"mago"},{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/14\/","name":"aguav"},{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/15\/","name":"iapapa"},{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/16\/","name":"razz"},{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/17\/","name":"bluk"},{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/18\/","name":"nanab"},{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/19\/","name":"wepear"},{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/20\/","name":"pinap"},{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/21\/","name":"pomeg"},{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/22\/","name":"kelpsy"},{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/23\/","name":"qualot"},{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/24\/","name":"hondew"},{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/25\/","name":"grepa"},{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/26\/","name":"tamato"},{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/27\/","name":"cornn"},{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/28\/","name":"magost"},{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/29\/","name":"rabuta"},{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/30\/","name":"nomel"},{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/31\/","name":"spelon"},{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/32\/","name":"pamtre"},{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/33\/","name":"watmel"},{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/34\/","name":"durin"},{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/35\/","name":"belue"},{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/36\/","name":"occa"},{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/37\/","name":"passho"},{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/38\/","name":"wacan"},{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/39\/","name":"rindo"},{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/40\/","name":"yache"},{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/41\/","name":"chople"},{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/42\/","name":"kebia"},{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/43\/","name":"shuca"},{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/44\/","name":"coba"},{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/45\/","name":"payapa"},{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/46\/","name":"tanga"},{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/47\/","name":"charti"},{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/48\/","name":"kasib"},{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/49\/","name":"haban"},{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/50\/","name":"colbur"}],"next":"https:\/\/pokeapi.co\/api\/v2\/berry\/?limit=50&offset=50"}'
+    http_version: 
+  recorded_at: Mon, 10 Sep 2018 01:35:43 GMT
+- request:
+    method: get
+    uri: http://pokeapi.co/api/v2/berry?limit=50&offset=50
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.4.4 (2018-03-28))
+      Accept:
+      - "*/*"
+      Date:
+      - Mon, 10 Sep 2018 01:35:43 GMT
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Date:
+      - Mon, 10 Sep 2018 01:35:43 GMT
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - max-age=3600
+      Expires:
+      - Mon, 10 Sep 2018 02:35:43 GMT
+      Location:
+      - https://pokeapi.co/api/v2/berry?limit=50&offset=50
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 457e28d8745a5a4a-BOS
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Mon, 10 Sep 2018 01:35:43 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/berry?limit=50&offset=50
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.4.4 (2018-03-28))
+      Accept:
+      - "*/*"
+      Date:
+      - Mon, 10 Sep 2018 01:35:43 GMT
+      Cookie:
+      - __cfduid=d61f5eb155365ab7b4506f58fff76348b1536543323
+  response:
+    status:
+      code: 301
+      message: MOVED PERMANENTLY
+    headers:
+      Date:
+      - Mon, 10 Sep 2018 01:35:43 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Frame-Options:
+      - SAMEORIGIN
+      Location:
+      - https://pokeapi.co/api/v2/berry/?limit=50&offset=50
+      X-Xss-Protection:
+      - 1; mode=block
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 457e28d89cecae44-BOS
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Mon, 10 Sep 2018 01:35:43 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/berry/?limit=50&offset=50
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.4.4 (2018-03-28))
+      Accept:
+      - "*/*"
+      Date:
+      - Mon, 10 Sep 2018 01:35:43 GMT
+      Cookie:
+      - __cfduid=d61f5eb155365ab7b4506f58fff76348b1536543323
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 10 Sep 2018 01:35:43 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      - Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+      Allow:
+      - GET, HEAD, OPTIONS
+      X-Xss-Protection:
+      - 1; mode=block
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 457e28d93d55ae44-BOS
+    body:
+      encoding: UTF-8
+      string: '{"count":64,"previous":"https:\/\/pokeapi.co\/api\/v2\/berry\/?limit=50","results":[{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/51\/","name":"babiri"},{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/52\/","name":"chilan"},{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/53\/","name":"liechi"},{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/54\/","name":"ganlon"},{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/55\/","name":"salac"},{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/56\/","name":"petaya"},{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/57\/","name":"apicot"},{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/58\/","name":"lansat"},{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/59\/","name":"starf"},{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/60\/","name":"enigma"},{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/61\/","name":"micle"},{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/62\/","name":"custap"},{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/63\/","name":"jaboca"},{"url":"https:\/\/pokeapi.co\/api\/v2\/berry\/64\/","name":"rowap"}],"next":null}'
+    http_version: 
+  recorded_at: Mon, 10 Sep 2018 01:35:43 GMT
+recorded_with: VCR 4.0.0

@@ -22,13 +22,13 @@ Or install it yourself as:
 
 ### Loading Resources
 
-You can access specific resources in the API directly through the `PokeAPI::Loader` class:
+You can access specific resources in the API directly through the `PokeAPI::Client` class:
 
 ```ruby
-loader = PokeAPI::Loader.new("pokemon")
-loader.all
+client = PokeAPI::Client.new("pokemon")
+client.all
 # => [{ "name" => "Bulbasaur", "national_id" => 1, ... }, ...]
-loader.find(169)
+client.find(169)
 # => { "name" => "Crobat", "national_id" => 169, ... }
 ```
 

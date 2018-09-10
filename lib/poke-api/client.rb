@@ -20,6 +20,7 @@ module PokeAPI
     end
 
     def each
+      return to_enum(:each) unless block_given?
       ::PokeAPI::ResultEnumerator.new(resource, DEFAULT_BATCH_SIZE).each do |result|
         yield ::PokeAPI::APIWrapper.request(result['url'])
       end
